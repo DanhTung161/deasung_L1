@@ -43,6 +43,33 @@ body {
   height: auto;
 }
 
+.item-pro .img_full img {
+  transition: all 0.5s;
+}
+
+.item-pro .img_full:hover img {
+  transform: scale(1.1);
+}
+
+.item-pro_cate .img-full img {
+  transition: all 0.5s;
+}
+
+.item-pro_cate .img-full:hover img {
+  transform: scale(1.1);
+}
+
+.item-why img {
+  display: block; /* Loại bỏ khoảng cách dưới hình ảnh */
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của khối chứa */
+  height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị biến dạng */
+  transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển tiếp khi phóng to */
+}
+
+.item-why:hover img {
+  transform: scale(1.1); /* Phóng to hình ảnh 10% khi hover */
+}
+
 .img-h-full img {
   height: 100%;
 }
